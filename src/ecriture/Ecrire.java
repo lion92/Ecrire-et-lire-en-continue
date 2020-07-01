@@ -58,17 +58,15 @@ public class Ecrire implements Runnable {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Veuillez saisir un a et une acquisition :");
 		str = sc.nextLine();
-		
 
 		while (str.contains("a")) {
 
-			str=str.replace('a', ' ');
+			str = str.replace('a', ' ');
 
 			acquisition();
 
 			System.out.println("Veuillez saisir un a et une acqcuisition :");
 			str = sc.nextLine();
-		
 
 		}
 	}
